@@ -67,6 +67,7 @@
             <cryptocurrency>LTC</cryptocurrency>
             <cryptocurrency>DASH</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
         </ratesource>
         <ratesource prefix="bitkub" name="BitKub.com">
             <cryptocurrency>BTC</cryptocurrency>
@@ -117,6 +118,7 @@
             <cryptocurrency>LTC</cryptocurrency>
             <cryptocurrency>ETH</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <cryptocurrency>EURS</cryptocurrency>
             <cryptocurrency>USDS</cryptocurrency>
             <cryptocurrency>MKR</cryptocurrency>
@@ -167,7 +169,7 @@
             <cryptocurrency>BURST</cryptocurrency>
             <cryptocurrency>CLOAK</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
-            <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <cryptocurrency>DASH</cryptocurrency>
             <cryptocurrency>DEX</cryptocurrency>
             <cryptocurrency>DGB</cryptocurrency>
@@ -348,6 +350,7 @@
             <cryptocurrency>BURST</cryptocurrency>
             <cryptocurrency>CLOAK</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <cryptocurrency>DASH</cryptocurrency>
             <cryptocurrency>DEX</cryptocurrency>
             <cryptocurrency>DGB</cryptocurrency>
@@ -407,6 +410,7 @@
             <cryptocurrency>BURST</cryptocurrency>
             <cryptocurrency>CLOAK</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <cryptocurrency>DASH</cryptocurrency>
             <cryptocurrency>DEX</cryptocurrency>
             <cryptocurrency>DGB</cryptocurrency>
@@ -559,6 +563,7 @@
             <cryptocurrency>BCH</cryptocurrency>
             <cryptocurrency>BTC</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <cryptocurrency>ETH</cryptocurrency>
             <cryptocurrency>LTC</cryptocurrency>
             <help>Over 100+ crypto rates can be sourced directly from the Telr DeFi Network. Recommended for Telr Gatekeeper and Telr Cash operators.</help>
@@ -570,6 +575,7 @@
             <cryptocurrency>BCH</cryptocurrency>
             <cryptocurrency>BTC</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <cryptocurrency>ETH</cryptocurrency>
             <cryptocurrency>LTC</cryptocurrency>
             <help>Telr Cash is a non-custodial, stablecoin "hot" wallet with access to over 100+ cryptos.</help>
