@@ -1,4 +1,4 @@
-package com.generalbytes.batm.server.extensions.extra.ethereum.erc20.dai;
+package com.generalbytes.batm.server.extensions.extra.ethereum.erc20.bizz;
 
 import com.generalbytes.batm.common.currencies.CryptoCurrency;
 import com.generalbytes.batm.server.extensions.CryptoCurrencyDefinition;
