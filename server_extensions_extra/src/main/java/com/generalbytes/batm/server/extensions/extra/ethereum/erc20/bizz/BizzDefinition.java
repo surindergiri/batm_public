@@ -8,7 +8,7 @@ public class BizzDefinition extends CryptoCurrencyDefinition{
     private IPaymentSupport paymentSupport = new BizzPaymentSupport();
 
     public BizzDefinition() {
-        super(CryptoCurrency.BIZZ.getCode(), "BIZZ ERC20 Token", "ethereum","https://bizzcoin.com/en/bizz/");
+        super(CryptoCurrency.BIZZ.getCode(), "BIZZ ERC20 Token", "ethereum","https://bizzcoin.com/");
     }
 
     @Override

@@ -49,7 +49,7 @@ public enum CryptoCurrency {
     BURST("Burst"),
     CLOAK("CloakCoin"),
     DAI("Dai"),
-    BIZZ("BIZZ"),
+    BIZZ("bizzcoin"),
     DASH("Dash"),
     DEX("DEX"),
     DGB("DigiByte"),
