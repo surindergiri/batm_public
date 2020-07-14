@@ -10,7 +10,7 @@
         </ratesource>
         <ratesource prefix="coingecko" name="CoinGecko.com">
             <param name="fiatcurrency"/>
-            <cryptocurrency>bizz</cryptocurrency>
+            <cryptocurrency>bizzcoin</cryptocurrency>
         </ratesource>
         <ratesource prefix="coinpaprika" name="CoinPaprika.com">
             <param name="fiatcurrency"/>
