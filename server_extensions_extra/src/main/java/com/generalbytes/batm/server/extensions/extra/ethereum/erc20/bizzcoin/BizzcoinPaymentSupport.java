@@ -1,4 +1,4 @@
-package com.generalbytes.batm.server.extensions.extra.ethereum.erc20.bizz;
+package com.generalbytes.batm.server.extensions.extra.ethereum.erc20.bizzcoin;
 
 import com.generalbytes.batm.common.currencies.CryptoCurrency;
 import com.generalbytes.batm.server.extensions.IExtensionContext;
@@ -20,8 +20,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-public class BizzPaymentSupport implements IPaymentSupport {
-    private static final Logger log = LoggerFactory.getLogger(BizzPaymentSupport.class);
+public class BizzcoinPaymentSupport implements IPaymentSupport {
+    private static final Logger log = LoggerFactory.getLogger(BizzcoinPaymentSupport.class);
     private final Map<String, PaymentRequest> requests = new ConcurrentHashMap<>();
 
     private final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
@@ -112,7 +112,7 @@ public class BizzPaymentSupport implements IPaymentSupport {
 
     @Override
     public PaymentReceipt getPaymentReceipt(String paymentAddress) {
-        PaymentReceipt result = new PaymentReceipt(CryptoCurrency.BIZZ.getCode(), paymentAddress);
+        PaymentReceipt result = new PaymentReceipt(CryptoCurrency.BIZZCOIN.getCode(), paymentAddress);
         PaymentRequest paymentRequest = requests.get(paymentAddress);
         if (paymentRequest != null && paymentRequest.getState() == PaymentRequest.STATE_SEEN_IN_BLOCK_CHAIN) {
             result.setStatus(PaymentReceipt.STATUS_PAID);
