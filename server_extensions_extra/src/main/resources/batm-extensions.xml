@@ -1,20 +1,20 @@
 <extensions>
     <extension class="com.generalbytes.batm.server.extensions.extra.bitcoin.BitcoinExtension">
         <ratesource prefix="mrcoin" name="MrCoin.eu">
-            <cryptocurrency>BIZZCOIN</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
         </ratesource>
         <ratesource prefix="fixprice" name="Fix Price Universal">
             <param name="price"/>
             <param name="fiatcurrency"/>
-            <cryptocurrency>BIZZCOIN</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
         </ratesource>
         <ratesource prefix="coingecko" name="CoinGecko.com">
             <param name="fiatcurrency"/>
-            <cryptocurrency>BIZZCOIN</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
         </ratesource>
         <ratesource prefix="coinpaprika" name="CoinPaprika.com">
             <param name="fiatcurrency"/>
-            <cryptocurrency>BIZZCOIN</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
         </ratesource>
     </extension>
     <extension class="com.generalbytes.batm.server.extensions.extra.bitcoincash.BitcoinCashExtension">
@@ -22,7 +22,7 @@
             <param name="address"/>
             <param name="secret"/>
             <param name="signature"/>
-            <cryptocurrency>BIZZCOIN</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <help>
                 Over 100+ crypto rates can be sourced directly from the Telr DeFi Network. Recommended for Telr Gatekeeper and Telr Cash operators.
             </help>
@@ -31,7 +31,7 @@
             <param name="address"/>
             <param name="secret"/>
             <param name="signature"/>
-            <cryptocurrency>BIZZCOIN</cryptocurrency>
+            <cryptocurrency>BIZZ</cryptocurrency>
             <help>
                 Telr Cash is a non-custodial, stablecoin "hot" wallet with access to over 100+ cryptos.
             </help>
@@ -48,10 +48,10 @@
             <help>
                 Mnemonic should be 24 words delimited by spaces. gaslimit is optional
             </help>
-            <cryptocurrency buyonly="true">BIZZCOIN</cryptocurrency>
+            <cryptocurrency buyonly="true">BIZZ</cryptocurrency>
         </wallet>
-        <cryptologo cryptocurrency="BIZZCOIN" file="bizz.png"/>
-        <cryptologo cryptocurrency="BIZZCOIN" file="bizz.svg"/>
+        <cryptologo cryptocurrency="BIZZ" file="bizz.png"/>
+        <cryptologo cryptocurrency="BIZZ" file="bizz.svg"/>
         <!--
          ADD your ERC20 tokens here. And don't forget to add cryptologos.
         -->
