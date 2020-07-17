@@ -1,0 +1,31 @@
+<extensions>
+    <extension class="com.generalbytes.batm.server.extensions.extra.ethereum.EthereumExtension">
+        <ratesource prefix="coingecko" name="CoinGecko.com">
+            <param name="fiatcurrency"/>
+            <cryptocurrency>BIZZ</cryptocurrency>
+        </ratesource>
+
+        <ratesource prefix="coinmarketcap" name="CoinMarketCap.com">
+            <param name="fiatcurrency" />
+            <param name="api_key" />
+            <cryptocurrency>BIZZ</cryptocurrency>
+        </ratesource>
+        <wallet prefix="infuraERC20_BIZZ_8_0x7a8ca2f815a260660158a38c34ca321a3605ecfe" name="Infura.io wallet - BIZZ">
+            <!--
+             Hint: infuraERC20_TOKENSYMBOL_DECIMALPLACES_CONTRACTADDRESS
+            -->
+            <param name="projectId"/>
+            <param name="mnemonic"/>
+            <param name="gaslimit"/>
+            <help>
+                Mnemonic should be 24 words delimited by spaces. gaslimit is optional
+            </help>
+            <cryptocurrency buyonly="true">BIZZ</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="BIZZ" file="bizz.png"/>
+        <cryptologo cryptocurrency="BIZZ" file="bizz.svg"/>
+        <!--
+         ADD your ERC20 tokens here. And don't forget to add cryptologos.
+        -->
+    </extension>
+</extensions>
